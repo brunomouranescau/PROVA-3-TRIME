@@ -1,0 +1,139 @@
+header{
+    background-color: rgb(241, 119, 119);
+    height: 150px;
+    padding: 20px 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:blue;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+    
+
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 70px; 
+    right: 0;
+}
+h1 img {
+    width: 150px;
+}
+.servicos{
+width: 940px;
+margin: 0px auto;
+padding: 50px 0;
+}
+.servicos li:hover{
+border-color:black;
+border:  5px solid black;
+}
+.servicos li:active{
+background-color: rgb(52, 9, 225);
+
+}
+
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+padding-right: 30px 20px ;
+box-sizing: border-box;
+ border: 2px solid blue;
+ border-radius: 30px ;
+
+}
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricao{
+font-size: 18px
+}
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.servicos img{
+    width: 200px;
+}
+footer{
+text-align: center;
+background-color: rgb(255, 255, 255);
+padding: 40px 0;
+
+
+}
+footer img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+footer p{
+    color:rgb(0, 0, 0)
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10;
+
+}
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding-bottom: 10px 25px;
+    width: 50%;
+    
+}
+.enviar{
+    width: 40%;
+    padding: 15px;
+    background-color: rgb(76, 76, 238);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s all;
+}
+.enviar:hover{
+    background-color: rgb(246, 4, 4);
+    transform: scale(7.0);
+     transform:rotate(360deg);
+     animation:repetir 1s linear infinite;
+} 
+@keyframes repetir {
+    0%{
+        transform: scale(1.0);
+        
+    }
+    100%{
+         transform: scale(7.0);
+    }
+    
+}
+
